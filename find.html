@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DavidBreadHead er en bager med fokus på surdej og bage på 
+    den naturlige måde. Surdejsbrødet hos DavidBreadHead er altid frisk og nybagt hver morgen. Denne hjemmeside
+    har samtidig fokus på nogle af de sundhedsmæssige fordele ved og bage med surdej fremfor gær">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+    <title>DavidBreadHead</title>
+</head>
+<!--Denne del er Kodet af Kristian Ørbæk Møller & Leila Isabella Ganer-->
+<header>
+    <div class="headerbar">
+        <div class="venstrelink">
+            <a class="findlink" href="find.html">Find os</a>
+            <a class="mobillogo" href="index.html"><img src="images/DBHlogo100.png" alt="DavidBreadHeadlogo"></a>
+        </div>
+        <div class="logo">
+            <a class="laptoplogo" href="index.html"><img src="images/DBHlog200.png" alt="DavidBreadHeadlogo"></a>
+        </div>
+
+            <div class="hamburger">
+                <div class="bar"></div>
+            </div>
+
+    </div>
+</header>
+<nav class="mobile-nav">
+    <a href="index.html">DavidBreadHead</a>
+    <a href="proces.html">Fra Mark Til Mave</a>
+    <a href="bagsammen.html">Bag Sammen</a>
+    <a href="find.html">Find Os</a>
+    <a href="Galleri.html">Mærk Stemningen</a>
+</nav>
+<body>
+    <section class="forsidekort">
+        <img class="laptopbillede" src="images/findos.png" alt="surdejkursus">
+        <img class="mobilbillede" src="images/findosMobil.png" alt="surdejkursus">
+        <div class="korttekst">
+            <h1>Find <br> os</h1>
+            <h2>Kom ned og tjek vores butikker ud eller kontakt os
+                via de forskellige metoder nedenfor.
+            </h2>
+        </div>
+    </section>
+    <section class="kontakt">
+        <div class="ikonboks">
+            <div class="pladsholder"> <img src="images/mailikon.png" alt="Mail Ikon"></div>
+            <h3>Email</h3>
+            <p>Hold kontakten med os for opdateringer og særlige tilbud</p>
+            <p><u>Davidbreadhead@gmail.com</u></p>
+        </div>
+        <div class="ikonboks">
+            <div class="pladsholder"><img src="images/telefonikon.png" alt="Telefon Ikon"></div>
+            <h3>Telefon</h3>
+            <p>Kontakt os for eventuelle forespørgsler eller bestillinger</p>
+            <p><u>(+45) 29 16 05 55</u></p>
+        </div>
+        <div class="ikonboks">
+            <div class="pladsholder"><img src="images/lokationikon.png" alt="Lokation Ikon"></div>
+            <h3>Lokation</h3>
+            <p>Besøg vores butik for personlig oplevelse</p>
+            <p><u>Ny Munkegade 4B, 8000 Aarhus C</u></p>
+        </div>
+    </section>
+    <section class="lokation">
+        <div class="lokationoverskrift">
+            <p>Velsmagende</p>
+            <h3>Lokationer</h3>
+            <p>Besøg vores cafeer for friske og sunde surdejsbrød.</p>
+        </div>
+        <div class="stederne">
+            <div class="bokssted">
+                <div class="pladslokation">
+                    <img src="images/Munkegade.png" alt="Billede af Facaden ved Munkegade">
+                    <h3 class="mobilskrift">Aarhus</h3>
+                    <p class="mobilskrift"><u>Ny Munkegade 4B, 8000 Aarhus C</u></p>
+                </div>
+                <h3 class="laptopskrift">Aarhus</h3>
+                <p class="laptopskrift"><u>Ny Munkegade 4B, 8000 Aarhus</u></p>
+            </div>
+            <div class="bokssted">
+                <div class="pladslokation">
+                    <img src="images/Morkgade.png" alt="Billede af Facaden ved Morkgade">
+                    <h3 class="mobilskrift">Aarhus</h3>
+                    <p class="mobilskrift"><u>J. M. Mørks Gade 7, kl th, 8000 Aarhus</u></p>
+                </div>
+                <h3 class="laptopskrift">Aarhus</h3>
+                <p class="laptopskrift"><u>J. M. Mørks Gade 7, kl th, 8000 Aarhus C</u></p>
+            </div>
+        </div>
+    </section>
+    <section class="beskedomrade">
+        <div class="beskedomradeoverskrift">
+            <h3>Tag Kontakt</h3>
+            <p>Har du et spørgsmål eller feedback? Vi vil meget gerne høre fra dig!</p>
+        </div>
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="fname">Navn</label>
+                <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+            
+                <label for="lname">Mail</label>
+                <input type="text" id="lname" name="lastname" placeholder="Din email..">
+            
+                <label for="subject">Besked</label>
+                <textarea id="subject" name="subject" placeholder="Skriv din besked her.." style="height:200px"></textarea>
+            
+              </form>
+              <!--Kilde(Robbins (2018) kap 9)-->
+        </div>
+        <div class="beskedomradeknap">
+            <div class="cntr">
+                <input checked="" type="checkbox" id="cbx" class="hidden-xs-up">
+                <label for="cbx" class="cbx"></label>
+              </div>
+              <h3>Accepter Vilkårene</h3>
+        </div>
+        <div class="beskedomradesend">
+            <a class="knap" href="#"><span>Send</span></a>
+        </div>
+        
+    </section>
+</body>
+<footer>
+    <div class="footertop">
+        <div class="footerlogo">
+            <a class="laptoplogo" href="index.html"><img src="images/DBHlog150.png" alt="DavidBreadHeadlogo"></a>
+            <a class="mobillogo" href="index.html"><img src="images/DBHlogo100.png" alt="DavidBreadHeadlogo"></a>
+        </div>
+        <div class="footerlink">
+            <a href="index.html">Forside</a>
+            <a href="proces.html">Processen</a>
+            <a href="bagsammen.html">Kurser</a>
+            <a href="find.html">Find os</a>
+            <a href="Galleri.html">Galleri</a>
+        </div>
+        <div class="footerikon">
+            <a class="laptoplogo" href="https://www.facebook.com/DavidBreadHead"><img src="images/FBIcon100.png" alt="Facebook"></a>
+            <a class="mobillogo" href="https://www.facebook.com/DavidBreadHead"><img src="images/FBIcon50.png" alt="Facebook"></a>
+            <a class="laptoplogo" href="https://www.instagram.com/davidbreadhead/?hl=da"><img src="images/IGIcon100.png" alt="Instagram"></a>
+            <a class="mobillogo" href="https://www.instagram.com/davidbreadhead/?hl=da"><img src="images/IGIcon50.png" alt="Instagram"></a>
+            <a class="laptoplogo" href="https://www.linkedin.com/"><img src="images/LIIcon100.png" alt="Linkedin"></a>
+            <a class="mobillogo" href="https://www.linkedin.com/"><img src="images/LIIcon50.png" alt="Linkedin"></a>
+            <a class="laptoplogo" href="https://www.youtube.com/"><img src="images/YTIcon100.png" alt="Youtube"></a>
+            <a class="mobillogo" href="https://www.youtube.com/"><img src="images/YTIcon50.png" alt="Youtube"></a>
+        </div>
+    </div>
+    <hr>
+    <div class="footerbund">
+        <p>Fødevarestyrelsens Rapport</p>
+        <a class="laptoplogo" href="https://www.findsmiley.dk/1110730"><img src="images/FSsmiley.png" alt="Fødevarestyrelsens Smiley"></a>
+        <a class="mobillogo" href="https://www.findsmiley.dk/1110730"><img src="images/FSsmiley50.png" alt="Fødevarestyrelsens Smiley"></a>
+    </div>
+</footer>
+</html>
